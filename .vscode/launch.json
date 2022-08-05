@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BlackholeApplication<blackhole>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.oleirosoftware.blackhole.BlackholeApplication",
+            "projectName": "blackhole",
+            "args": [
+                "--spring.profiles.active=local",
+                "--server.port=8686"
+            ],
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
